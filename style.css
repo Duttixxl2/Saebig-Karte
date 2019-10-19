@@ -1,0 +1,16 @@
+/* Die Karte */
+#map {
+    width: 80%;
+    height: 600px;
+}
+
+/* Die Beschriftungen der Landkreise auf Übersichtskarte */
+.tooltip {
+    background-color: #00000000;
+    border: none;
+    box-shadow: none;
+    color: #00000090;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+}
