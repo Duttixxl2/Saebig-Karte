@@ -33,7 +33,6 @@ function main() {
         maxBoundsViscosity: 0.8,        // [0-1] legt fest, wie sich die Karte verhält, wenn man sie über die Grenze hinauszieht
         bounceAtZoomLimits: false,      // Brauch man nicht, erzeugt ohnehin Bugs auf Mobilgeräten
         wheelPxPerZoomLevel: 300,       // Wie start wird mit Mausrad gezoomt (je höher, desto langsamer)
-        dragging: false                 // Karte nicht mit Maus verschiebbar -> Pfeiltasten! (kann man evt. wieder entfernen)
     });
 
     // Straßenkarte laden und in Karte einfügen
