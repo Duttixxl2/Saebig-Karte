@@ -16,6 +16,9 @@ let streetCover = L.rectangle([[0, 0], [90, 180]], {
     fillOpacity: 1
 });
 
+// Array für gesetzte Marker
+let markers = []
+
 // Die Koordinaten, die nötig sind, um ein Polygon auf der Karte zu invertieren 
 // (wichtig für coverLayer)
 const vectorInverter = [[0, 90], [180, 90], [180, -90], [0, -90], [-180, -90], [-180, 0], [-180, 90], [0, 90]];
@@ -41,6 +44,14 @@ function main() {
         accessToken: 'not-needed',
         style: 'https://api.maptiler.com/maps/streets/style.json?key=R7Y2sHW2hgzFomqlOY4W'
     }).addTo(map);
+
+    // Hinzufügen der Marker mit Popup (vorerst unsichtbar)
+    for (let i = 0; i < bibodaten.length; i++) {
+        let marker = L.marker(bibodaten[i].coords);
+        let markertext = '<b>' + bibodaten[i].name + '</b><br>' + bibodaten[i].str + '<br>' + bibodaten[i].plz;
+        marker.bindPopup(markertext);
+        markers.push(marker);
+    }
 
     // Übersichtskarte aller Landkreise initialisieren
     launchBaseMap();
@@ -97,6 +108,9 @@ function main() {
         style: { color: '#6AB446', fillColor: '#6AB446' },
         onEachFeature: forAll
     }).addTo(map);
+
+    // Zurück-Knopf initialisieren
+    document.getElementById('return-button').addEventListener('click', launchBaseMap);
 }
 
 
@@ -118,6 +132,12 @@ function launchBaseMap() {
     // Falls eine Landkreis-Layer zuvor entfernt wurde, jetzt wieder hinzufügen
     if (removedLayer) removedLayer.fire('mouseout').addTo(map);
     // (das mouseOut Event ist dafür dass der Landkreis seinen unrsprünglichen Style annimmt)
+
+    // Marker verstecken
+    for (let i = 0; i < markers.length; i++) markers[i].removeFrom(map);
+
+    // Zurück-Knopf verstecken
+    document.getElementById('return-button').style.display = 'none';
 }
 
 
@@ -162,6 +182,12 @@ function launchDetailedMap(selectedLayer) {
 
     // Straßen sichtbar machen
     streetCover.remove();
+
+    // Marker anzeigen
+    for (let i = 0; i < markers.length; i++) markers[i].addTo(map);
+
+    // Zurück-Knopf anzeigen
+    document.getElementById('return-button').style.display = 'block';
 }
 
 
