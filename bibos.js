@@ -139,8 +139,8 @@ let bibodaten = [
         "str": "Walterstal 76 (im Bürgerhaus)",
         "plz": "09599",
         "coords": [
-            39.78373,
-            -100.445882
+            50.932132,
+            13.302206
         ]
     },
     {
@@ -208,11 +208,11 @@ let bibodaten = [
     },
     {
         "name": "OTB Großnaundorf",
-        "str": "Pulsnitzer Sttr. 1",
+        "str": "Pulsnitzer Straße 1",
         "plz": "01936",
         "coords": [
-            39.78373,
-            -100.445882
+            51.203617,
+            13.936795
         ]
     },
     {
@@ -247,8 +247,8 @@ let bibodaten = [
         "str": "Am Ernst-Thälman-Heim 3",
         "plz": "09633",
         "coords": [
-            39.78373,
-            -100.445882
+            50.954615,
+            13.352576
         ]
     },
     {
@@ -283,8 +283,8 @@ let bibodaten = [
         "str": "Meisterhau 1",
         "plz": "08107",
         "coords": [
-            39.78373,
-            -100.445882
+            50.6217,
+            12.530757
         ]
     },
     {
@@ -328,8 +328,8 @@ let bibodaten = [
         "str": "Markt 6",
         "plz": "09514",
         "coords": [
-            39.78373,
-            -100.445882
+            50.719106,
+            13.193134
         ]
     },
     {
@@ -337,8 +337,8 @@ let bibodaten = [
         "str": "Hauptstraße 3",
         "plz": "08485",
         "coords": [
-            39.78373,
-            -100.445882
+            50.569752,
+            12.364761
         ]
     },
     {
@@ -418,8 +418,8 @@ let bibodaten = [
         "str": "Schloss Lohmen 1",
         "plz": "01847",
         "coords": [
-            39.78373,
-            -100.445882
+            50.990444,
+            13.994253
         ]
     },
     {
@@ -427,8 +427,8 @@ let bibodaten = [
         "str": "Am Markt 7",
         "plz": "02999",
         "coords": [
-            39.78373,
-            -100.445882
+            51.383921,
+            14.403678
         ]
     },
     {
@@ -436,8 +436,8 @@ let bibodaten = [
         "str": "Kurze Straße 1",
         "plz": "04808",
         "coords": [
-            39.78373,
-            -100.445882
+            51.410519,
+            12.806745
         ]
     },
     {
@@ -454,8 +454,8 @@ let bibodaten = [
         "str": "Hohensteiner Straße 2",
         "plz": "09385",
         "coords": [
-            39.78373,
-            -100.445882
+            50.741709,
+            12.747013
         ]
     },
     {
@@ -481,8 +481,8 @@ let bibodaten = [
         "str": "Annaberger Straße 80",
         "plz": "08352",
         "coords": [
-            39.78373,
-            -100.445882
+            50.532793,
+            12.870083
         ]
     },
     {
@@ -558,12 +558,12 @@ let bibodaten = [
         ]
     },
     {
-        "name": "Gemeindebibliothek",
+        "name": "Gemeindebibliothek Mockrehna",
         "str": "Schulstraße 8",
         "plz": "04862",
         "coords": [
-            39.78373,
-            -100.445882
+            51.506051,
+            12.810146
         ]
     },
     {
@@ -580,8 +580,8 @@ let bibodaten = [
         "str": "St. Jacober Hauptstraße 128a",
         "plz": "08132",
         "coords": [
-            39.78373,
-            -100.445882
+            50.73142,
+            12.578859
         ]
     },
     {
@@ -589,8 +589,8 @@ let bibodaten = [
         "str": "Schulstraße 3",
         "plz": "08132",
         "coords": [
-            39.78373,
-            -100.445882
+            50.764693,
+            12.542803
         ]
     },
     {
@@ -598,8 +598,8 @@ let bibodaten = [
         "str": "Friedenshain 2",
         "plz": "08499",
         "coords": [
-            39.78373,
-            -100.445882
+            50.617747,
+            12.267308
         ]
     },
     {
@@ -616,8 +616,8 @@ let bibodaten = [
         "str": "Mügelner Straße 8",
         "plz": "04769",
         "coords": [
-            39.78373,
-            -100.445882
+            51.257944,
+            13.102765
         ]
     },
     {
@@ -652,8 +652,8 @@ let bibodaten = [
         "str": "Markt 12",
         "plz": "08491",
         "coords": [
-            39.78373,
-            -100.445882
+            50.613209,
+            12.249266
         ]
     },
     {
@@ -661,8 +661,8 @@ let bibodaten = [
         "str": "Rudolf-Breitscheid-Straße 1",
         "plz": "09544",
         "coords": [
-            39.78373,
-            -100.445882
+            50.675537,
+            13.467726
         ]
     },
     {
@@ -676,11 +676,11 @@ let bibodaten = [
     },
     {
         "name": "Gemeindebibliothek Neukieritzsch",
-        "str": "Schulplatz3",
+        "str": "Schulplatz 3",
         "plz": "04575",
         "coords": [
-            39.78373,
-            -100.445882
+            51.153074,
+            12.409136
         ]
     },
     {
@@ -697,8 +697,8 @@ let bibodaten = [
         "str": "Hauptstraße 77",
         "plz": "09221",
         "coords": [
-            39.78373,
-            -100.445882
+            50.777666,
+            12.870037
         ]
     },
     {
@@ -706,8 +706,8 @@ let bibodaten = [
         "str": "Goethestraße 2",
         "plz": "01844",
         "coords": [
-            39.78373,
-            -100.445882
+            51.024717,
+            14.213098
         ]
     },
     {
@@ -787,8 +787,8 @@ let bibodaten = [
         "str": "Rudolf-Breitscheid-Straße 1",
         "plz": "09376",
         "coords": [
-            39.78373,
-            -100.445882
+            50.722141,
+            12.696159
         ]
     },
     {
@@ -811,29 +811,29 @@ let bibodaten = [
     },
     {
         "name": "Gemeindebibliothek Olbersdorf",
-        "str": "E.-May-Straße 39",
+        "str": "Ernst-May-Straße 39",
         "plz": "02785",
         "coords": [
-            39.78373,
-            -100.445882
+            50.866748,
+            14.76693
         ]
     },
     {
         "name": "Kreisergänzungsbibliothek Oschatz",
-        "str": "R.-Breitscheid-Straße1",
+        "str": "Rudolf-Breitscheid-Straße 1",
         "plz": "04748",
         "coords": [
-            39.78373,
-            -100.445882
+            51.294413,
+            13.108143
         ]
     },
     {
         "name": "Stadtbibliothek Oschatz",
-        "str": "R.-Breitscheid-Straße1",
+        "str": "Rudolf-Breitscheid-Straße 1",
         "plz": "04748",
         "coords": [
-            39.78373,
-            -100.445882
+            51.294413,
+            13.108143
         ]
     },
     {
@@ -973,11 +973,11 @@ let bibodaten = [
     },
     {
         "name": "Stadtbibliothek Regis-Breitingen",
-        "str": "H.-Pestalozzi-Straße 1",
+        "str": "Heinrich-Pestalozzi-Straße 1",
         "plz": "04565",
         "coords": [
-            39.78373,
-            -100.445882
+            51.085946,
+            12.431274
         ]
     },
     {
@@ -994,8 +994,8 @@ let bibodaten = [
         "str": "Markt 1",
         "plz": "08468",
         "coords": [
-            39.78373,
-            -100.445882
+            50.621473,
+            12.303952
         ]
     },
     {
@@ -1030,8 +1030,8 @@ let bibodaten = [
         "str": "Parkstraße 5a / Haus 3 BSZW",
         "plz": "08228",
         "coords": [
-            39.78373,
-            -100.445882
+            50.528103,
+            12.402744
         ]
     },
     {
@@ -1084,8 +1084,8 @@ let bibodaten = [
         "str": "Conradplatz 6-7",
         "plz": "04435",
         "coords": [
-            39.78373,
-            -100.445882
+            51.444271,
+            12.22551
         ]
     },
     {
@@ -1138,8 +1138,8 @@ let bibodaten = [
         "str": "Hauptstraße 43",
         "plz": "08304",
         "coords": [
-            39.78373,
-            -100.445882
+            50.503435,
+            12.53577
         ]
     },
     {
@@ -1165,8 +1165,8 @@ let bibodaten = [
         "str": "Schandauer Straße 8a",
         "plz": "01855",
         "coords": [
-            39.78373,
-            -100.445882
+            50.97138,
+            14.270203
         ]
     },
     {
@@ -1174,8 +1174,8 @@ let bibodaten = [
         "str": "Kalrsbader Straße 173",
         "plz": "09465",
         "coords": [
-            39.78373,
-            -100.445882
+            50.480449,
+            12.974658
         ]
     },
     {
@@ -1336,8 +1336,8 @@ let bibodaten = [
         "str": "Gartenstraße 42",
         "plz": "04736",
         "coords": [
-            39.78373,
-            -100.445882
+            51.071022,
+            13.02475
         ]
     },
     {
@@ -1471,8 +1471,8 @@ let bibodaten = [
         "str": "Bürgermeister-Ahnert-Platz 1",
         "plz": "04442",
         "coords": [
-            39.78373,
-            -100.445882
+            51.218176,
+            12.324447
         ]
     },
     {
@@ -1489,8 +1489,8 @@ let bibodaten = [
         "str": "Alte Schulstraße 5",
         "plz": "08297",
         "coords": [
-            39.78373,
-            -100.445882
+            50.629312,
+            12.811743
         ]
     }
 ]
