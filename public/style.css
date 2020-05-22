@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    overflow: visible;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Der Kartencontainer */
+#map-container {
+    position: relative;
+    flex: auto;
+}
+
+/* Die Karte */
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #faf5e5;
+}
+
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+#overlay-img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    flex: none;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #000;
+}
+
+#overlay-auth {
+    color: #fff;
+}
+
+#overlay-close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#overlay-close::before {
+    content: "";
+    display: block;
+    flex: none;
+    width: 15px;
+    height: 3px;
+    background-color: #fff;
+    transform: translateX(50%) rotate(45deg);
+}
+
+#overlay-close::after {
+    content: "";
+    display: block;
+    flex: none;
+    width: 15px;
+    height: 3px;
+    background-color: #fff;
+    transform: translateX(-50%) rotate(-45deg);
+}
+
+/* Der Zurück-Knopf */
+#return-button {
+    position: absolute;
+    z-index: 500;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+}
+
+/* Die Beschriftungen der Landkreise auf Übersichtskarte */
+.tooltip {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Popup Schriftart */
+.leaflet-popup-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tooltipLKG {
+    margin-left: 3vh;
+}
+
+.tooltipLKN {
+    margin-top: -3vh;
+}
+
+.tooltipKRMSO {
+    margin: 8vh 0 0 4vh;
+}
+
+.tooltipKRME {
+    margin-left: 7vh;
+}
+
+.tooltipKRL {
+    margin-left: 4vh;
+}
+
+.markercontent {
+    display: flex;
+    align-items: center;
+}
+
+.content-text {
+    margin-right: 5px;
+}
+
+.content-img {
+    display: block;
+    width: 114px;
+    height: 64px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.content-img.noImg {
+    width: 0;
+}
+
+/* #search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 500;
+    padding: 10px 15px;
+    border: 2px solid #aaa;
+    border-radius: 20px;
+}
+
+#search input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    width: 250px;
+}
+
+#search span {
+    display: inline-block;
+    border: 3px solid #aaa;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#search span::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 10px;
+    background-color: #aaa;
+    transform: rotate(45deg) translate(2px, 9px);
+} */
+
+#header, #footer {
+    flex: none;
+    font-size: 14px;
+}
+
+#header {
+    display: flex;
+}
+
+#selectLks, #selectKrs {
+    flex: 1;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    background-color: #c7f3af;
+}
+
+#footer input {
+    margin: 5px;
+}
+
+#select-all {
+    padding: 0 5px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe48c;
+    font-weight: bold;
+}
+
+#filter {
+    display: flex;
+    flex-direction: column;
+}
+
+#filter>div {
+    display: flex;
+}
+
+#filter>div:first-child {
+    font-weight: bold;
+}
+
+.sgFilter {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    flex: 1;
+}
+
+.sgFilter:first-child {
+    background-color: #95deff;
+}
+
+.sgFilter:last-child {
+    background-color: #a7e684;
+}
+
+.sgFilter div {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: none;
+    height: 36px;
+}
+
+#filter>div:nth-child(1) .sgFilter div{
+    width: 40px;
+}
+
+#filter>div:nth-child(2) .sgFilter div{
+    width: 30px;
+    margin: 0 5px;
+}
+
+#filter>div:nth-child(3) .sgFilter div{
+    width: 22px;
+    margin: 0 9px;
+}
+
+#filter>div:nth-child(4) .sgFilter div{
+    width: 15px;
+    margin: 0 12.5px;
+}
+
+#filter>div:not(:first-child) .sgFilter:first-child div {
+    background-image: url('iconW.svg');
+}
+
+#filter>div:not(:first-child) .sgFilter:last-child div {
+    background-image: url('iconO.svg');
+}
